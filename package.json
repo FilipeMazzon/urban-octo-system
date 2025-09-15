@@ -1,0 +1,32 @@
+{
+  "name": "urban-octo-system",
+  "version": "1.0.0",
+  "description": "You are tasked with designing and implementing a simple RESTful API service in TypeScript using Node.js (Express or similar framework). This service will manage a collection of \"Tasks\" for a to-do application. The goal is to assess your ability to:",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/src/index",
+    "start:dev": "node-ts src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipeMazzon/urban-octo-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilipeMazzon/urban-octo-system/issues"
+  },
+  "homepage": "https://github.com/FilipeMazzon/urban-octo-system#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "node-ts": "^8.0.8",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^13.0.0"
+  }
+}
